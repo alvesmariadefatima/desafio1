@@ -41,12 +41,12 @@ O objetivo deste desafio foi desenvolver uma **landing page** de apresentação 
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/pagina-apresentacao-pessoal.git
+   git clone https://github.com/seu-usuario/desafio1.git
    ```
 
 2. Acesse o diretório do projeto:
    ```bash
-   cd pagina-apresentacao-pessoal
+   cd apresentacao-pessoal
    ```
 
 3. Instale as dependências:
