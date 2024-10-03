@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Desafio 01 - Página de Apresentação Pessoal | Frontend Fusion
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este repositório contém o código do desafio 01 do processo seletivo para a posição de Desenvolvedor Frontend React Júnior Voluntário na Frontend Fusion. O desafio consistiu em desenvolver uma página de apresentação pessoal utilizando **React** e boas práticas de desenvolvimento.
 
-## Available Scripts
+## Visão Geral
 
-In the project directory, you can run:
+O objetivo deste desafio foi desenvolver uma **landing page** de apresentação pessoal que inclua informações relevantes, como minha bio, habilidades técnicas, projetos, e um formulário de contato. A página foi construída utilizando **React** com foco em performance e organização do código.
 
-### `npm start`
+### Objetivos principais:
+- Criar uma página simples, intuitiva e visualmente agradável.
+- Aplicar boas práticas de CSS e responsividade.
+- Garantir que a página funcione em diferentes dispositivos (desktop e mobile).
+- Implementar um formulário funcional que simule o envio de dados.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Screenshot do projeto:
+<img src="./public/desafio-apresentacao-pessoal-inicio.png" alt="Print da tela inicial da página de apresentação pessoal" />
+<br><br>
+<img src="./public/desafio-apresentacao-pessoal-final.png" alt="Print da parte final da página de apresentação pessoal" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Funcionalidades
 
-### `npm test`
+- **Seção de Apresentação**: Uma breve introdução com nome, foto e descrição.
+- **Seção de Habilidades**: Listagem de habilidades técnicas com ícones de tecnologias.
+- **Seção de Projetos**: Exibição de projetos anteriores com links para os repositórios no GitHub.
+- **Seção de Contato**: Exibição da seção de contatos
+- **Responsividade**: O layout foi ajustado para diferentes tamanhos de tela, proporcionando uma experiência otimizada em dispositivos móveis e desktops.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tecnologias Utilizadas
 
-### `npm run build`
+- **React**: Biblioteca JavaScript utilizada para criar a interface de usuário.
+- **HTML5**: Estrutura semântica da página.
+- **Tailwind CSS**: Estilização da página com foco em design responsivo.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Como Rodar o Projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Pré-requisitos:
+- [Node.js](https://nodejs.org/)
+- [Git](https://git-scm.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Passos para rodar o projeto localmente:
 
-### `npm run eject`
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/pagina-apresentacao-pessoal.git
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Acesse o diretório do projeto:
+   ```bash
+   cd pagina-apresentacao-pessoal
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Execute o projeto:
+   ```bash
+   npm start
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+O projeto estará disponível em: [http://localhost:3000](http://localhost:3000)
