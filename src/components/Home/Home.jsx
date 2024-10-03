@@ -79,10 +79,10 @@ function Home() {
         <h1 className="text-pink-500 text-center text-xl md:text-2xl">Contato</h1>
         <p className="text-black text-center text-sm md:text-base">Me siga nas redes sociais caso queira trocar alguma ideia comigo ou alguma oportunidade:</p>
         <div className="flex justify-center space-x-4 mt-4">
-        <img src="/logotipo-github.png" alt="Logotipo Github" className="w-12 h-12" />
-            <img src="/logotipo-linkedin.png" alt="Logotipo Linkedin" className="w-12 h-12" />
-            <img src="/logotipo-instagram.png" alt="Logotipo Instagram" className="w-12 h-12" />
-            <img src="/logotipo-whatsapp.png" alt="Logotipo Whatsapp" className="w-12 h-12" />
+        <a href="https://github.com/alvesmariadefatima" target="_blank"><img src="/logotipo-github.png" alt="Logotipo Github" className="w-12 h-12" /></a>
+        <a href="https://linkedin.com/in/maria-de-fatima-nunes-alves" target="_blank"><img src="/logotipo-linkedin.png" alt="Logotipo Linkedin" className="w-12 h-12" /></a>
+        <a href="https://instagram.com/devmariadefatima" target="_blank"><img src="/logotipo-instagram.png" alt="Logotipo Instagram" className="w-12 h-12" /></a>
+        <a href="https://w.app/NSocWf" target="_blank"><img src="/logotipo-whatsapp.png" alt="Logotipo Whatsapp" className="w-12 h-12" /></a>
         </div>
       </div>
       <Footer />
